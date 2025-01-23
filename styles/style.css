@@ -27,6 +27,11 @@ img {
     background-position: center !important;
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 /* navbar */
 
 .top-nav {
@@ -137,4 +142,23 @@ img {
 .owl-prev:hover,
 .owl-next:hover {
     background-color: #ff4d29 !important;
+}
+
+/* info box */
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.info-box img {
+    width: 90px;
+    height: 90px;
+    margin-right: 28px;
+}
+
+.redius {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
 }
