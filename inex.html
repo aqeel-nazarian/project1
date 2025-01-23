@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>prohect</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- main navbar -->
      <nav class="top-nav" id="Home">
       <div class="container">
@@ -36,7 +36,7 @@
         </div>
       </div>
      </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">Proxima<span>.</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,33 +45,62 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">Sevices</a>
+                <a class="nav-link" href="#">Sevices</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">Portfolio</a>
+                <a class="nav-link" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">Team</a>
+                <a class="nav-link" href="#">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">Reviews</a>
+                <a class="nav-link" href="#">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#home">Blog</a>
+                <a class="nav-link" href="#">Blog</a>
               </li>
             </ul>
             <a href="" class="btn btn-brand ms-lg-3">Contact Us</a>
           </div>
         </div>
       </nav>
+
+      <!-- slider -->
+       <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+        <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h6 class="text-uppercase text-white">We Craft digital experiances</h6>
+                <h1 class="display-3 my-3 text-white text-uppercase">Design Driven for<br/>Professionals</h1>
+                <a href="#" class="btn btn-brand">Get Started</a>
+                <a href="#" class="btn btn-outline-light ms-md-3">Our work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h6 class="text-uppercase text-white">Design Driven for Professionals</h6>
+                <h1 class="display-3 my-3 text-white text-uppercase">We Craft digital<br/>experiances</h1>
+                <a href="#" class="btn btn-brand">Get Started</a>
+                <a href="#" class="btn btn-outline-light ms-md-3">Our work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
     <script src="/js/jquery.main.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>

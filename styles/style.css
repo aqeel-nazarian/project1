@@ -21,6 +21,12 @@ img {
     width: 100%;
 }
 
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 /* navbar */
 
 .top-nav {
@@ -92,4 +98,43 @@ img {
 .btn-brand:hover {
     color: #fff;
     background-color: #d43f21;
+}
+
+/* slider */
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 33, 52, 0.64)), url(/imags/banner1.jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 33, 52, 0.64)), url(/imags/banner2.jpg);
+}
+
+/* owl carousal */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #ff4d29 !important;
 }
