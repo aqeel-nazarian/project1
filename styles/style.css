@@ -324,3 +324,43 @@ section {
 .team-member h5 {
     margin-top: 24px;
 }
+
+/* Review */
+#review {
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 33, 52, 0.8)), url(/imags/banner1.jpg);
+}
+
+.reviews {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.reviews img {
+    width: 85px !important;
+    height: 85px !important;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.reviews h4 {
+    margin-top: 16px;
+}
+
+.reviews h4,
+.lead {
+    color: #fff;
+}
+
+.reviews small {
+    color: #ff4d29;
+}
+
+.reviews p {
+    margin-top: 28px;
+}
+
+.owl-dot.active span {
+    background-color: #ff4d29 !important;
+}

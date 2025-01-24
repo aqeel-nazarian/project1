@@ -25,7 +25,7 @@ $(document).ready(function() {
         loop:true,
         margin:0,
         nav: true,
-        dots: false,
+        dots: true,
         smartSpeed: 1000,
         margin: 24,
         navText: ['PREV', 'NEXT'],
@@ -44,5 +44,14 @@ $(document).ready(function() {
                 dots: true,
             }
         }
+    });
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:true,
+        items:1,
+        smartSpeed:1000,
     })
 });
