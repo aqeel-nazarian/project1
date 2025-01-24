@@ -32,6 +32,20 @@ section {
     padding-bottom: 80px;
 }
 
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #ff4d29;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
 /* navbar */
 
 .top-nav {
@@ -177,4 +191,24 @@ section {
 
 #milestone .display-4 {
     font-weight: 700;
+}
+
+/* services */
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #ff4d29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: white;
+    font-size: 24px;
+    margin:0 auto 16px;
 }
