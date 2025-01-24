@@ -161,4 +161,20 @@ section {
     height: 300px;
     border-radius: 150px;
     object-fit: cover;
+    border-left: 30px solid #ff4d29;
+}
+
+/* Milestone */
+
+#milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9)), url(/imags/banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color: white;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
 }
