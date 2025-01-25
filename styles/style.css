@@ -394,3 +394,30 @@ section {
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(0, 12, 50, 0.8), rgba(9, 32, 50, 0.8)), url(/imags/banner2.jpg);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer .navbar-brand {
+    color: #fff;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.082);
+    padding-top: 20px;
+}
+
+footer .social-link a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
